@@ -1,0 +1,4 @@
+Nuno Costa - <nuno@criacaoweb.net>
+
+CONTRIBUTIONS
+Morten <morten.@poulsen.org> - I want thank Morten <morten@poulsen.org> for his help and code in the beginning of this module, was very IMPORTANT.

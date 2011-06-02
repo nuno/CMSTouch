@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMSTouch Documentation</title>
+</head>
+
+<body>
+<h1>CMSTouch Documentation</h1>
+<h2 style="color:red;">Use with caution, it is a beta version and smarty must process each request due the lack of cmsms support in this specific area.</h2>
+<h2>Default simple theme - to work nice with <a href="http://jquerymobile.com/" target="_blank">jQuery Mobile</a>:</h2>
+<p>The default theme is to work with <a href="http://jquerymobile.com/" target="_blank">jQuery Mobile</a>, you can look at they documentation.<br />
+This module assumes ANY theme that you want, you do not need to use the default theme at all! Just create your nomal template in cmsms to be of course more mobile style.</p>
+<p>I will make tutoriais to for you, soon as possible.</p>
+<h3>Search template propose:</h3>
+<code><pre>
+{$startform}
+  &lt;label for=&quot;{$search_actionid}searchinput&quot;&gt;{$searchprompt}:&amp;nbsp;&lt;/label&gt;
+&lt;input data-theme=&quot;c&quot; data-type=&quot;search&quot; type=&quot;text&quot; class=&quot;search-input&quot; id=&quot;{$search_actionid}searchinput&quot; name=&quot;{$search_actionid}searchinput&quot; size=&quot;20&quot; maxlength=&quot;50&quot; value=&quot;&quot; /&gt;<br />  &lt;input class=&quot;search-button&quot; name=&quot;submit&quot; value=&quot;&quot; type=&quot;submit&quot; /&gt;</p>
+{if isset($hidden)}{$hidden}{/if}
+{$endform}
+</pre></code>
+<h3>Call for Menu template, for now sould have:</h3>
+<code><pre>
+number_of_levels="1"
+</pre>
+</code>
+or for example
+<code>
+<pre>
+items=&quot;home,about,contact-us&quot;
+</pre>
+</code>
+<p><code>
+  </code>
+  
+  </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>(c) Nuno Costa </p>
+</body>
+</html>

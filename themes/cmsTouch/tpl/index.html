@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name = "viewport" content = "width = 420, user-scalable = no" />
+<meta name = "format-detection" content = "telephone=no" />
+<!--<link rel="apple-touch-icon" href="http://cwebnet.net/cms17x/modules/CMSTouch/themes/cmsTouch/icons/cmstouch.png" />-->
+<base href="http://cwebnet.net/cms17x/" />
+
+<title>CMSTouch</title>
+
+<style type="text/css" media="screen">@import "modules/CMSTouch/themes/lib/jqtouch/jqtouch/jqtouch.css?ver=b3";</style>
+        <style type="text/css" media="screen">@import "modules/CMSTouch/themes/lib/jqtouch/themes/jqt/theme.css?ver=b3";</style>
+        <script src="modules/CMSTouch/themes/lib/jqtouch/jqtouch/jquery-1.4.2.min.js?ver=b3" type="text/javascript" charset="utf-8"></script>
+        <script src="modules/CMSTouch/themes/lib/jqtouch/jqtouch/jqtouch.js?ver=b3" type="application/x-javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var jQT = new $.jQTouch({
+                icon: 'http://cwebnet.net/cms17x/modules/CMSTouch/themes/cmsTouch/icons/cmstouch.png',
+                addGlossToIcon: false,
+                startupScreen: 'http://cwebnet.net/cms17x/modules/CMSTouch/themes/cmsTouch/img/ct_startup.png',
+                statusBar: 'black',
+                preloadImages: [
+                    'modules/CMSTouch/themes/lib/jqtouch/themes/jqt/img/back_button.png',
+                    'modules/CMSTouch/themes/lib/jqtouch/themes/jqt/img/back_button_clicked.png',
+                    'modules/CMSTouch/themes/lib/jqtouch/themes/jqt/img/button_clicked.png',
+                    'modules/CMSTouch/themes/lib/jqtouch/themes/jqt/img/grayButton.png',
+                    'modules/CMSTouch/themes/lib/jqtouch/themes/jqt/img/whiteButton.png',
+                    'modules/CMSTouch/themes/lib/jqtouch/themes/jqt/img/loading.gif'
+                    ]
+            });
+												
+										
+$(function(){
+            $('a[target="_blank"]').click(function() {
+            if (confirm('This link opens in a new window.')) {
+                return true;
+                } else {
+                  return false;
+                }
+            });
+            
+												
+}); //end ready
+</script>
+        <style type="text/css" media="screen">
+            #jqt.fullscreen #home .info {
+                display: none;
+            }
+            div#jqt #about {
+                padding: 100px 10px 40px;
+                text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+                font-size: 13px;
+                text-align: center;
+                background: #161618;
+            }
+            div#jqt #about p {
+                margin-bottom: 8px;
+            }
+            div#jqt #about a {
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        </style>
+</head>
+
+<body>
+ <div id="jqt">
+
+<!--ABOUT -->
+ <div id="about" class="selectable">
+                    
+                    <p><img src="modules/CMSTouch/themes/cmsTouch/icons/cmstouch.png" alt="cmstouch"><!--<img src="jqtouch.png" />--></p>
+                    <p><strong>jQTouch</strong><br />Version 0.1.0<br />
+                        <a href="http://cmsmsworld.com">By Nuno Costa and Morten Poulsen</a></p>
+                    <p><em>Create powerful mobile apps with<br /> just HTML, CSS, jQTouch and jQuery.</em></p>
+                    <p>
+                        <a href="http://twitter.com/cmstouch" target="_blank">@CMSTouch on Twitter</a>
+                    </p>
+                    <p><br /><br /><a href="#" class="grayButton goback">Close</a></p>
+</div>
+ <!-- END ABOUT -->           
+            
+            
+            
+            
+               
+            <div id="home" class="current">
+                <div class="toolbar">
+                    <h1>jQTouch</h1>
+                    <a class="button slideup" id="infoButton" href="#about">CMSTouch</a>
+                </div>
+                <ul class="rounded">
+                    <li class="arrow"><a href="#ui">User Interface</a> <small class="counter">4</small></li>
+                    <li class="arrow"><a href="#animations">Animations</a> <small class="counter">8</small></li>
+                    <li class="arrow"><a href="#ajax">AJAX</a> <small class="counter">3</small></li>
+                    <li class="arrow"><a href="#callbacks">Events</a> <small class="counter">3</small></li>
+                    <li class="arrow"><a href="#extensions">Extensions</a> <small class="counter">4</small></li>
+                    <li class="arrow"><a href="#video">Video</a></li>
+                    <li class="arrow"><a href="#demos">Demos</a> <small class="counter">2</small></li>
+                </ul>
+                
+                
+                
+            
+            
+            
+                
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+
+        </div>
+
+    </body>
+</html>
